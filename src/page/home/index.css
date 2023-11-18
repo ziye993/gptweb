@@ -1,0 +1,74 @@
+.gptMessageBox {
+  line-height: 30px;
+  text-align: left;
+  height: 100%;
+  max-width: 1000px;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 100px 0;
+  box-sizing: border-box;
+}
+
+.userMessage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px;
+
+}
+
+.message {
+  line-height: 40px;
+}
+
+.messageItemBox {
+  flex: 1;
+}
+
+.messageItemContent {
+  background-color: #eeeeee;
+  border-radius: 20px;
+  padding: 0 16px;
+  width: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.Head {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 20px;
+  /* border: 1px solid #777; */
+  font-size: 18px;
+  line-height: 40px;
+  background-color: rgb(34, 86, 170);
+  color: #FFF;
+  text-align: center;
+
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  flex: 1;
+
+}
+
+.submit {
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+}
+
+.textareainput{
+ width:  100%;
+ min-height: 200px;
+}
